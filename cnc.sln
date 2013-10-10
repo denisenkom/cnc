@@ -1,7 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 10.00
-# Visual Studio 2008 Tools for Applications
+# Visual Studio 2008
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dxfloader", "dxfloader\dxfloader.csproj", "{08573FC3-4F2A-4B73-BF8E-A336959B9B82}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cnc", "cnc.vcproj", "{B8F17F59-8A4D-42F9-BF09-FB0DE0A4B47F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,6 +25,16 @@ Global
 		{08573FC3-4F2A-4B73-BF8E-A336959B9B82}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{08573FC3-4F2A-4B73-BF8E-A336959B9B82}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{08573FC3-4F2A-4B73-BF8E-A336959B9B82}.Release|Win32.ActiveCfg = Release|Any CPU
+		{B8F17F59-8A4D-42F9-BF09-FB0DE0A4B47F}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{B8F17F59-8A4D-42F9-BF09-FB0DE0A4B47F}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{B8F17F59-8A4D-42F9-BF09-FB0DE0A4B47F}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{B8F17F59-8A4D-42F9-BF09-FB0DE0A4B47F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B8F17F59-8A4D-42F9-BF09-FB0DE0A4B47F}.Debug|Win32.Build.0 = Debug|Win32
+		{B8F17F59-8A4D-42F9-BF09-FB0DE0A4B47F}.Release|Any CPU.ActiveCfg = Release|Win32
+		{B8F17F59-8A4D-42F9-BF09-FB0DE0A4B47F}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{B8F17F59-8A4D-42F9-BF09-FB0DE0A4B47F}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{B8F17F59-8A4D-42F9-BF09-FB0DE0A4B47F}.Release|Win32.ActiveCfg = Release|Win32
+		{B8F17F59-8A4D-42F9-BF09-FB0DE0A4B47F}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
