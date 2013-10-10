@@ -152,6 +152,7 @@ namespace dxfloader
     {
         public static LinkedList<AxisCommand> Translate(Trace trace)
         {
+            return null;
         }
     }
 

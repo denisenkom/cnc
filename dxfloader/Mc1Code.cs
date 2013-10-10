@@ -19,7 +19,7 @@ namespace dxfloader.Mc1
     {
         public DirectionType Dir;
 
-        SetDirection(DirectionType dir) { Dir = dir; }
+        public SetDirection(DirectionType dir) { Dir = dir; }
     }
 
     class SetAccel : Command
@@ -40,7 +40,7 @@ namespace dxfloader.Mc1
     {
         public int Speed; // шагов в секунду
 
-        SetSpeed(int speed) { Speed = speed; }
+        public SetSpeed(int speed) { Speed = speed; }
     }
 
     class MakeMove : Command
@@ -86,7 +86,7 @@ namespace dxfloader.Mc1
                 if (line.Dx != 0)
                 {
                     EmitX(new SetDirection(line.Dx > 0 ? PositiveXDir : NegativeXDir));
-                    EmitX(new SetSpeed());
+                    EmitX(new SetSpeed(Speed));
                 }
             }
 
@@ -101,6 +101,7 @@ namespace dxfloader.Mc1
 
         public static Program Generate(LinkedList<IRCommand> irprog)
         {
+            return null;
         }
     }
 }
