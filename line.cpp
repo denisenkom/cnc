@@ -1,4 +1,5 @@
 #include "stdafx.h"
+#include <stdexcept>
 #include "common.h"
 #include "line.h"
 
