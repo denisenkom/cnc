@@ -1,7 +1,7 @@
 #pragma once
 
-#include <Windows.h>
-#include "Line.h"
+#include <windows.h>
+#include "line.h"
 
 const int NUM_CHANNELS = 3;
 const int CHANNEL_X = 1;

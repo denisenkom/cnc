@@ -1,6 +1,7 @@
 #include "stdafx.h"
+#include <stdexcept>
 #include "Programmer.h"
-#include "Common.h"
+#include "common.h"
 
 
 using std::cerr;
